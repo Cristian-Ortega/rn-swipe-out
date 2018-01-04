@@ -1,7 +1,55 @@
 {
-  "name": "rn-swipe-out",
-  "version": "0.3.0",
+  "_args": [
+    [
+      "rn-swipe-out@0.3.0",
+      "/Users/cristian/dev/react-native/admin-prop-ios"
+    ]
+  ],
+  "_from": "rn-swipe-out@0.3.0",
+  "_id": "rn-swipe-out@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-pevvJU9kDseouwKTl0l7CHc03+I=",
+  "_location": "/rn-swipe-out",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rn-swipe-out@0.3.0",
+    "name": "rn-swipe-out",
+    "escapedName": "rn-swipe-out",
+    "rawSpec": "0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "0.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-swipe-out/-/rn-swipe-out-0.3.0.tgz",
+  "_spec": "0.3.0",
+  "_where": "/Users/cristian/dev/react-native/admin-prop-ios",
+  "author": {
+    "name": "ChuangChuang"
+  },
+  "bugs": {
+    "url": "https://github.com/SmallComfort/rn-swipe-out/issues"
+  },
   "description": "The iOS-style Swipeout component, implement with javascript, running on iOS and Android. High performance, interactive, and configurable.",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react-native": "^2.2.1",
+    "react": "15.4.2",
+    "react-native": "0.42.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "homepage": "https://github.com/SmallComfort/rn-swipe-out",
+  "jest": {
+    "preset": "react-native"
+  },
   "keywords": [
     "swipeout",
     "react-native",
@@ -13,36 +61,18 @@
     "high-performance",
     "swipe"
   ],
-  "author": "ChuangChuang",
-  "bugs": {
-    "url": "https://github.com/SmallComfort/rn-swipe-out/issues"
-  },
-  "homepage": "https://github.com/SmallComfort/rn-swipe-out",
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
-  },
+  "license": "MIT",
   "main": "lib/index.js",
+  "name": "rn-swipe-out",
   "peerDependencies": {
     "react-native": ">=0.20.0"
-  },
-  "devDependencies": {
-    "react": "15.4.2",
-    "react-native": "0.42.0",
-    "babel-preset-react-native": "1.9.1",
-    "eslint": "^3.12.2",
-    "babel-eslint": "^7.1.1",
-    "eslint-plugin-react": "^6.8.0",
-    "eslint-plugin-react-native": "^2.2.1"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "license": "MIT",
-  "directories": {
-    "example": "example"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SmallComfort/rn-swipe-out.git"
-  }
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "version": "0.3.0"
 }

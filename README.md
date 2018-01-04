@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
 ## Props
 Prop | Default | Type | Description
 -----|---------|------|------------
-style | {} | View.propTypes.style | Styling Swipeout, you can treat it as a View.
+style | {} | PropTypes.style | Styling Swipeout, you can treat it as a View.
 left | [] | Object/Array | The configuration on the left, [more info](#the-configuration-for-the-left-and-right).
 right | [] | Object/Array | The configuration on the right, [more info](#the-configuration-for-the-left-and-right).
 onPress | emptyFn | Function | Called when the touch is released, but not if cancelled (e.g. by a scroll that steals the responder lock).
